@@ -4,11 +4,12 @@ class Negociacao {
 		this._data = new Date(data.getTime());
 		this._quantidade = quantidade;
 		this._valor = valor;
+		console.log(this._data, this._quantidade, this._valor = valor);
 		Object.freeze(this);
 	}
 
 	get volume(){
-		return this._quantidade * this.valor;
+		return this._quantidade * this._valor;
 	}
 
 	get data(){
