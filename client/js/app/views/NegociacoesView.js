@@ -1,5 +1,5 @@
 class NegociacoesView extends View{
-    
+
     constructor(elemento){
 
         super(elemento);
@@ -17,7 +17,7 @@ class NegociacoesView extends View{
                         <th>VOLUME</th>
                     </tr>
                 </thead>
-                
+
                 <tbody>
                     ${model.negociacoes.map(n =>
                          `
@@ -30,7 +30,7 @@ class NegociacoesView extends View{
                         `
                     ).join('')}
                 </tbody>
-                    
+
                 <tfoot>
                     <td colspan="3"></td>
                     <td>
