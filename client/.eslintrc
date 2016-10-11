@@ -1,9 +1,8 @@
 {
-    "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "module"
-    },
-    "rules": {
+  "settings":{
+    "ecmascript": 6
+  },
+  "rules": {
         "semi": 2
     }
 }
